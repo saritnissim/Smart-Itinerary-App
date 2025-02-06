@@ -1,0 +1,1 @@
+{"root":["./src/app.ts","./src/server.ts","./src/config/db-setup.ts","./src/config/knexfile.ts","./src/controllers/authcontroller.ts","./src/controllers/itinerarycontroller.ts","./src/models/itinerarymodel.ts","./src/models/usermodel.ts","./src/routes/itineraryrouter.ts","./src/utils/jwtutils.ts"],"version":"5.7.2"}

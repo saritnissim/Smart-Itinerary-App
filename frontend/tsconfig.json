@@ -1,0 +1,28 @@
+// {
+//   "compilerOptions": {
+//     "baseUrl": ".", // Set baseUrl to the root of the frontend project
+//     "paths": {
+//       "@shared/*": ["../shared/types/*"]
+//     }
+//   },
+//   "files": [],
+//   "references": [
+//     { "path": "./tsconfig.app.json" },
+//     { "path": "./tsconfig.node.json" }
+//   ]
+// }
+
+{
+  "compilerOptions": {
+    "baseUrl": ".", // Set baseUrl to the root of the frontend project
+    "paths": {
+      "@shared/*": ["../shared/types/*"] // Alias to the shared types folder
+    },
+    "module": "ES2020",
+    "moduleResolution": "node",
+    "jsx": "preserve"
+  },
+  "include": ["src/**/*", "../shared/types/**/*"], // Include shared folder
+
+  "exclude": ["node_modules"] // Exclude node_modules from the project
+}
