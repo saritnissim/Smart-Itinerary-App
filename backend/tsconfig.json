@@ -112,7 +112,8 @@
   },
   "references": [{ "path": "../shared" }],
   "include": [
-    "src" // Include everything in the src folder
+    "src", // Include everything in the src folder
+    "shared"
   ],
   "exclude": ["node_modules"]
 }
